@@ -1,4 +1,6 @@
 /* background */
+
+
 body {
   background-image: url(https://images.unsplash.com/photo-1555367072-90923442306e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
   background-size: cover;
@@ -114,14 +116,14 @@ body {
 .card {
   border: none;
   transition: transform 0.2s;
-  width: 200px;
+  width: 250px;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
   background-color: #FFD700; 
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 5px 15px rgba(22, 26, 255, 0.233); 
   border-radius: 10px; 
   font-weight: bold; 
   color: #333; 
@@ -134,8 +136,8 @@ body {
 
 /* Skills section */
 .skills-section {
-  text-align: center;
-  padding: 100px 0;
+  text-align: left;
+  padding: 50px 0;
   background: linear-gradient(to bottom, #C2B280, #F4A460);
 }
 
@@ -152,9 +154,9 @@ body {
   border: none;
 }
 
-/* Contact section */
-.contact-section {
-  text-align: center;
+/* Contact section  */
+ .contact-section {
+  
   padding: 100px 0;
   background-color: #333; 
 }
@@ -167,7 +169,7 @@ body {
 
 .contact-info {
   font-size: 18px;
-  max-width: 600px;
+  
   color: white;
   margin: 0 auto;
 }
