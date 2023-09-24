@@ -117,7 +117,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <form name="contact" netlify>
+                    <form name="contact" method="post" netlify>
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Email address</label>
@@ -134,6 +134,8 @@
                             <label for="exampleFormControlTextarea1" class="form-label">Comment:</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
                     </form>
                 </div>
                 <div class="col-md-6">
