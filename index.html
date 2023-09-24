@@ -118,12 +118,20 @@
             <div class="row">
                 <div class="col-md-6">
                     <form>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                        </div>
-                        <div class=" mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="First Name">
+                            <label for="floatingText">First Name</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="First Name">
+                            <label for="floatingText">Last Name</label>
+                          </div>
+                        <div class="commentForm mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Comment:</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                     </form>

@@ -154,6 +154,10 @@ body {
   border: none;
 }
 
+.commentForm {
+  color: white
+}
+
 /* Contact section  */
  .contact-section {
   
@@ -194,3 +198,5 @@ body {
 .go-to-top:hover {
   color: #e74c3c;
 }
+
+
